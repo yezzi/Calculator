@@ -97,12 +97,9 @@
 		FAE271511CC0C5A800C050D9 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				FAE271521CC0C5A800C050D9 /* AppDelegate.swift */,
 				FAE271541CC0C5A800C050D9 /* ViewController.swift */,
 				FAE271561CC0C5A800C050D9 /* Main.storyboard */,
-				FAE271591CC0C5A800C050D9 /* Assets.xcassets */,
-				FAE2715B1CC0C5A800C050D9 /* LaunchScreen.storyboard */,
-				FAE2715E1CC0C5A800C050D9 /* Info.plist */,
+				FAE271801CC0C65C00C050D9 /* Supporting Files */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				FAE271741CC0C5A800C050D9 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		FAE271801CC0C65C00C050D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2715E1CC0C5A800C050D9 /* Info.plist */,
+				FAE2715B1CC0C5A800C050D9 /* LaunchScreen.storyboard */,
+				FAE271591CC0C5A800C050D9 /* Assets.xcassets */,
+				FAE271521CC0C5A800C050D9 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yeyeCorp.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yeyeCorp.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +494,7 @@
 				FAE271791CC0C5A800C050D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE2717A1CC0C5A800C050D9 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +503,7 @@
 				FAE2717C1CC0C5A800C050D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE2717D1CC0C5A800C050D9 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +512,7 @@
 				FAE2717F1CC0C5A800C050D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
